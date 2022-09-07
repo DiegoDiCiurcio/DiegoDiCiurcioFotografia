@@ -1,0 +1,213 @@
+// FOOTER MOBILE 
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+
+
+            // HOME 
+.footer__container--home {
+    height: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 1em;
+
+    .footer__social--home {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+
+        a {
+            font-weight: 300;
+            color: rgba($color: #000000, $alpha: 1);
+            text-decoration: none;
+            padding-left: 0.2em;
+            font-size: 1em;
+            display: flex;
+            flex-flow: row wrap;
+
+            p {
+                display: none;
+            }
+
+            &:hover {
+                .instagram {
+                    display: inline-block;
+                    padding-left: 0.2em;
+                    color: #bf36a8;
+                }
+
+                .facebook {
+                    display: inline-block;
+                    padding-left: 0.2em;
+                    color: rgb(55, 101, 255);
+                }
+
+                .linkedIn {
+                    display: inline-block;
+                    padding-left: 0.2em;
+                    color: rgb(0, 0, 0);
+                }
+            }
+        }
+    }
+
+    .footer__about--home {
+        padding-right: 0.2em;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+
+        a {
+            font-weight: 300;
+            color: rgba($color: #000000, $alpha: 1);
+            text-decoration: none;
+            padding-left: 0.2em;
+            font-size: 1em;
+        }
+    }
+}
+
+                            // BIOGRAFIA      
+                                
+.footer__container--biografia {
+    height: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 1em;
+
+    .footer__social--biografia {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+
+        a {
+            font-weight: 300;
+            color: rgba($color: #000000, $alpha: 1);
+            text-decoration: none;
+            padding-left: 0.2em;
+            font-size: 1em;
+            display: flex;
+            flex-flow: row wrap;
+            i{
+                transition: 1s;}
+
+            p {
+                display: none;
+                transition: 1s;
+
+            }
+            
+            &:hover {
+            
+
+                .instagram {
+                    display: inline-block;
+                    padding-left: 0.2em;
+                    color: #bf36a8;
+                    transition: 1s;
+
+                }
+
+                .facebook {
+                    display: inline-block;
+                    padding-left: 0.2em;
+                    color: rgb(55, 101, 255);
+                }
+
+                .linkedIn {
+                    display: inline-block;
+                    padding-left: 0.2em;
+                    color: rgb(0, 0, 0);
+                }
+            }
+        }
+    }
+
+    .footer__about--aboutMe {
+        padding-right: 0.2em;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+
+        a {
+            font-weight: 300;
+            color: rgba($color: #000000, $alpha: 1);
+            text-decoration: none;
+            padding-left: 0.2em;
+            font-size: 1em;
+        }
+    }
+}
+
+
+// GALERIA FOOTER 
+
+
+
+.footer__container--galeria {
+    height: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 1em;
+
+    .footer__social--galeria {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+
+        a {
+            font-weight: 300;
+            color: rgba($color: #000000, $alpha: 1);
+            text-decoration: none;
+            padding-left: 0.2em;
+            font-size: 1em;
+            display: flex;
+            flex-flow: row wrap;
+
+            p {
+                display: none;
+            }
+
+            &:hover {
+                .instagram {
+                    display: inline-block;
+                    padding-left: 0.2em;
+                    color: #bf36a8;
+                }
+
+                .facebook {
+                    display: inline-block;
+                    padding-left: 0.2em;
+                    color: rgb(55, 101, 255);
+                }
+
+                .linkedIn {
+                    display: inline-block;
+                    padding-left: 0.2em;
+                    color: rgb(0, 0, 0);
+                }
+            }
+        }
+    }
+
+    .footer__about--galeria {
+        padding-right: 0.2em;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+
+        a {
+            font-weight: 300;
+            color: rgba($color: #000000, $alpha: 1);
+            text-decoration: none;
+            padding-left: 0.2em;
+            font-size: 1em;
+        }
+    }
+}
+}

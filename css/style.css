@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: none; }
+
+.navbar__container .navbar__logo img {
+  width: 3em;
+  height: 3em;
+  padding: 0;
+  margin: 0; }
+
+.navbar__container .navbar__links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+
+.navbar__container a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: .9em;
+  transition: 1s; }
+  .navbar__container a:hover {
+    letter-spacing: 2px;
+    font-size: 1em;
+    color: #424242;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0.2em; }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .footer__container--home {
+    height: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 1em; }
+    .footer__container--home .footer__social--home {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between; }
+      .footer__container--home .footer__social--home a {
+        font-weight: 300;
+        color: black;
+        text-decoration: none;
+        padding-left: 0.2em;
+        font-size: 1em;
+        display: flex;
+        flex-flow: row wrap; }
+        .footer__container--home .footer__social--home a p {
+          display: none; }
+        .footer__container--home .footer__social--home a:hover .instagram {
+          display: inline-block;
+          padding-left: 0.2em;
+          color: #bf36a8; }
+        .footer__container--home .footer__social--home a:hover .facebook {
+          display: inline-block;
+          padding-left: 0.2em;
+          color: #3765ff; }
+        .footer__container--home .footer__social--home a:hover .linkedIn {
+          display: inline-block;
+          padding-left: 0.2em;
+          color: black; }
+    .footer__container--home .footer__about--home {
+      padding-right: 0.2em;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between; }
+      .footer__container--home .footer__about--home a {
+        font-weight: 300;
+        color: black;
+        text-decoration: none;
+        padding-left: 0.2em;
+        font-size: 1em; }
+  .footer__container--biografia {
+    height: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 1em; }
+    .footer__container--biografia .footer__social--biografia {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between; }
+      .footer__container--biografia .footer__social--biografia a {
+        font-weight: 300;
+        color: black;
+        text-decoration: none;
+        padding-left: 0.2em;
+        font-size: 1em;
+        display: flex;
+        flex-flow: row wrap; }
+        .footer__container--biografia .footer__social--biografia a i {
+          transition: 1s; }
+        .footer__container--biografia .footer__social--biografia a p {
+          display: none;
+          transition: 1s; }
+        .footer__container--biografia .footer__social--biografia a:hover .instagram {
+          display: inline-block;
+          padding-left: 0.2em;
+          color: #bf36a8;
+          transition: 1s; }
+        .footer__container--biografia .footer__social--biografia a:hover .facebook {
+          display: inline-block;
+          padding-left: 0.2em;
+          color: #3765ff; }
+        .footer__container--biografia .footer__social--biografia a:hover .linkedIn {
+          display: inline-block;
+          padding-left: 0.2em;
+          color: black; }
+    .footer__container--biografia .footer__about--aboutMe {
+      padding-right: 0.2em;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between; }
+      .footer__container--biografia .footer__about--aboutMe a {
+        font-weight: 300;
+        color: black;
+        text-decoration: none;
+        padding-left: 0.2em;
+        font-size: 1em; }
+  .footer__container--galeria {
+    height: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 1em; }
+    .footer__container--galeria .footer__social--galeria {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between; }
+      .footer__container--galeria .footer__social--galeria a {
+        font-weight: 300;
+        color: black;
+        text-decoration: none;
+        padding-left: 0.2em;
+        font-size: 1em;
+        display: flex;
+        flex-flow: row wrap; }
+        .footer__container--galeria .footer__social--galeria a p {
+          display: none; }
+        .footer__container--galeria .footer__social--galeria a:hover .instagram {
+          display: inline-block;
+          padding-left: 0.2em;
+          color: #bf36a8; }
+        .footer__container--galeria .footer__social--galeria a:hover .facebook {
+          display: inline-block;
+          padding-left: 0.2em;
+          color: #3765ff; }
+        .footer__container--galeria .footer__social--galeria a:hover .linkedIn {
+          display: inline-block;
+          padding-left: 0.2em;
+          color: black; }
+    .footer__container--galeria .footer__about--galeria {
+      padding-right: 0.2em;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between; }
+      .footer__container--galeria .footer__about--galeria a {
+        font-weight: 300;
+        color: black;
+        text-decoration: none;
+        padding-left: 0.2em;
+        font-size: 1em; } }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #backgroundBody {
+    background-image: linear-gradient(to top, #cfd9df 0%, #cfe9f7 100%); }
+  .title__container--home {
+    height: 15vh;
+    background-size: cover; }
+    .title__container--home div {
+      width: 90%;
+      margin: auto;
+      padding-top: 0.5em;
+      letter-spacing: 1px;
+      text-transform: uppercase; }
+      .title__container--home div h1 {
+        color: black;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        letter-spacing: 2px;
+        font-size: 2.5em;
+        border-bottom: #000000 1px solid; }
+      .title__container--home div h2 {
+        color: #343434;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-size: 1.8em; }
+  .slider__container--home {
+    height: 70vh;
+    width: 99%;
+    box-shadow: 0em 0em 20px 2px rgba(99, 99, 99, 0.644);
+    margin: auto; }
+    .slider__container--home .slider__home {
+      border-radius: 2px;
+      padding: 2em;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      margin: auto;
+      margin-top: auto;
+      animation: slider 24s infinite; }
+  @keyframes slider {
+    0% {
+      background-image: url(../assets/sliderHome/sliderHome1.jpg);
+      background-size: cover; }
+    20% {
+      background-image: url(../assets/sliderHome/sliderHome2.jpg);
+      background-size: cover; }
+    40% {
+      background-image: url(../assets/sliderHome/sliderHome3.jpg);
+      background-size: cover; }
+    60% {
+      background-image: url(../assets/sliderHome/sliderHome4.jpg);
+      background-size: cover; }
+    80% {
+      background-image: url(../assets/sliderHome/sliderHome5.jpg);
+      background-size: cover; }
+    100% {
+      background-image: url(../assets/sliderHome/sliderHome6.jpg);
+      background-size: cover; } } }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #backgroundBody {
+    background-image: linear-gradient(to top, #cfd9df 0%, #cfe9f7 100%);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .galeria {
+    height: 80vh;
+    margin-top: 2.5em; }
+    .galeria .naturaleza__title--link {
+      width: 98vw;
+      height: 45%;
+      margin: auto;
+      border-radius: 5px;
+      background-color: #86f880; }
+      .galeria .naturaleza__title--link h1 {
+        text-align: center;
+        letter-spacing: 2px;
+        padding-top: .5em; }
+    .galeria .viajes__title--link {
+      width: 98vw;
+      height: 45%;
+      margin: auto;
+      margin-top: 2em;
+      border-radius: 5px;
+      background-color: #ecbb35; }
+      .galeria .viajes__title--link h2 {
+        text-align: center;
+        letter-spacing: 2px;
+        padding-top: .5em; } }

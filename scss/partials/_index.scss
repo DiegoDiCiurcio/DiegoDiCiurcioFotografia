@@ -1,0 +1,96 @@
+
+
+                    // MEDIA QUERIES PARA MOBILE----> 320px a 480px.
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+
+#backgroundBody {
+    background-image: linear-gradient(to top, #cfd9df 0%, #cfe9f7 100%);
+
+}
+
+.title__container--home {
+    height: 15vh;
+    // background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-size: cover;
+
+    div {
+        width: 90%;
+        margin: auto;
+        padding-top: 0.5em;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+        h1 {
+            color: black;
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            font-weight: 200;
+            letter-spacing: 2px;
+            font-size: 2.5em;
+            border-bottom: #000000 1px solid;
+        }
+
+        h2 {
+            color: rgb(52, 52, 52);
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            font-weight: 200;
+            font-size: 1.8em;
+        }
+    }
+}
+
+.slider__container--home {
+    height: 70vh;
+    width: 99%;
+    box-shadow: 0em 0em 20px 2px rgba(99, 99, 99, 0.644);
+    margin: auto;
+
+    .slider__home {
+        border-radius: 2px;
+        padding: 2em;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        margin-top: auto;
+        animation: slider 24s infinite;
+
+        @keyframes slider {
+            0% {
+                background-image: url(../assets/sliderHome/sliderHome1.jpg);
+                background-size: cover;
+            }
+
+            20% {
+                background-image: url(../assets/sliderHome/sliderHome2.jpg);
+                background-size: cover;
+            }
+
+            40% {
+                background-image: url(../assets/sliderHome/sliderHome3.jpg);
+                background-size: cover;
+            }
+
+            60% {
+                background-image: url(../assets/sliderHome/sliderHome4.jpg);
+                background-size: cover;
+            }
+
+            80% {
+                background-image: url(../assets/sliderHome/sliderHome5.jpg);
+                background-size: cover;
+            }
+
+            100% {
+                background-image: url(../assets/sliderHome/sliderHome6.jpg);
+                background-size: cover;
+            }
+        }
+    }
+}
+}

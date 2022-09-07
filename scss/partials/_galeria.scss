@@ -1,0 +1,43 @@
+
+
+// GALERIA MOBILE 
+
+
+@media (min-width:320px) and (max-width: 480px) {
+    #backgroundBody {
+        background-image: linear-gradient(to top, #cfd9df 0%, #cfe9f7 100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .galeria{
+        height: 80vh;
+        margin-top: 2.5em;
+
+        .naturaleza__title--link{
+            width: 98vw;
+            height: 45%;
+            margin: auto;
+            border-radius: 5px;
+            background-color: rgba($color: #86f880, $alpha: 1.0);
+            h1{
+                text-align: center;
+                letter-spacing: 2px;
+                padding-top: .5em;
+            }
+        }
+        .viajes__title--link{
+            width: 98vw;
+            height: 45%;
+            margin: auto;
+            margin-top: 2em;
+            border-radius: 5px;
+            background-color: rgba($color: #ecbb35, $alpha: 1.0);
+            h2{
+                text-align: center;
+                letter-spacing: 2px;
+                padding-top: .5em;
+            }
+        }
+    }
+
+}
