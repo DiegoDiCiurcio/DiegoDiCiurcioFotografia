@@ -167,6 +167,12 @@
     function marcoSeleccionar(){
         let selectedValue = document.getElementById ('seleccionMarco').value;
         console.log (selectedValue);
+        if(selectedValue != "sin-marco"){
+            console.log ("marco con vidrio");
+        }
+        else{
+            console.log ("marco sin vidrio");
+        }
 
     }
 
