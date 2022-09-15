@@ -481,20 +481,27 @@ class CuadroCreado {
 }
 
 // FUNCION DE EVENTO PARA ENVIAR EL CLASS CON LAS PROPIEDADES AL CARRITO
+let cuadroTerminado = ""
 
 function enviarAlCarritoFn() {
-        let cuadroTerminado = ""
     enviarAlCarritoButton.addEventListener("click", () => (
         cuadroTerminado = new CuadroCreado (tamañoSeleccionado(), papelSeleccionado (), montajeSeleccionado(), marcoSeleccionado()),
         carritoDeCompras.push(cuadroTerminado),
-        console.log(carritoDeCompras.splice (","))
+        console.log(carritoDeCompras)
     )
     )
 }
 enviarAlCarritoFn()
 
-localStorage.setItem ('Carrito de compras', carritoDeCompras);
-localStorage.getItem (carritoDeCompras)
+// crear div con cada uno de los cuadros agregados? 
+    // carritoDeCompras.forEach(enviarAlCarritoFn, ()=> {
+    // const div  = document.createElement ("div")
+    // div.innerHTML = "<div>Cuadro creado correctamente</div>"
+    // })
 
+// añadir el carrito al local storage  con JSON
 
+const carritoJSON = JSON.stringify(carritoDeCompras);
 
+const guardarLocal = (CarritoDeCompras, CuadrosCreados) => { localStorage.setItem(CarritoDeCompras, CuadrosCreados)};
+guardarLocal("Carrito De Compras", JSON.stringify(carritoDeCompras));
